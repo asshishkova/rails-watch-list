@@ -10,7 +10,7 @@ class BookmarksController < ApplicationController
     @bookmark = Bookmark.new(bookmark_params)
     @bookmark.list = @list
     if @bookmark.save
-      redirect_to list_path(@list), notice: 'bookmark was successfully created'
+      redirect_to list_path(@list)
     else
       render :new
     end
@@ -18,7 +18,7 @@ class BookmarksController < ApplicationController
 
   def destroy
     @bookmark.destroy
-    redirect_to list_path, notice: 'bookmark was successfully destroyed'
+    redirect_to list_path(@bookmark.list)
   end
 
   private
