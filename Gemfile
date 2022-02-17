@@ -53,3 +53,6 @@ gem 'rails-controller-testing', group: [ :test ]
 gem "autoprefixer-rails", "10.2.5"
 gem "font-awesome-sass", "~> 5.15"
 gem "simple_form"
+
+# https://kitt.lewagon.com/camps/794/lectures/content/lectures/rails/hosting-image-upload/index.html?title=Hosting+%26+Image+Upload#/4/1
+gem 'dotenv-rails', groups: [:development, :test]
