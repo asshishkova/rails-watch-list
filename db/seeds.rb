@@ -14,9 +14,9 @@ Bookmark.destroy_all
 
 puts 'Cleaning up ListDB'
 List.destroy_all
-List.create(name: 'drama')
-List.create(name: 'comedy')
-puts 'Lists created'
+# List.create(name: 'drama')
+# List.create(name: 'comedy')
+# puts 'Lists created'
 
 puts 'Cleaning up MovieDB'
 Movie.destroy_all

@@ -56,3 +56,4 @@ gem "simple_form"
 
 # https://kitt.lewagon.com/camps/794/lectures/content/lectures/rails/hosting-image-upload/index.html?title=Hosting+%26+Image+Upload#/4/1
 gem 'dotenv-rails', groups: [:development, :test]
+gem 'cloudinary', '~> 1.16.0'
